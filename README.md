@@ -19,7 +19,7 @@ The filters under consideration distinguish photos in the following five aspects
 
 5. Texture: texture_similarity, texture_database
 
-The folder called “images” contains photos having the aforementioned problems (in the corresponding subfolders).
+The folder called “images” contains photos having the aforementioned problems (in the corresponding subfolders). Photos that do not have any of the above problems are in the subfolder called "good".
 
 ## Software Requirements
 - Have to be done in Python 2.7.x
