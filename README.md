@@ -35,8 +35,10 @@ The folder called “images” contains photos having the aforementioned problem
 ## Tools used in Vismantic
 * [Flickr API](https://www.flickr.com/services/api/)
 * Object Extraction algorithm
+
 ** Download project from [CmCode-fork](https://github.com/assamite/CmCode), compile saliency.so
 * Texture Transfer algorithm
+
 ** Install [GIMP](http://www.gimp.org/) (2.8 or later)
 ** Install [Resynthesizer GIMP Plugin](http://registry.gimp.org/node/25219) (for installing GIMP Plugins, see [wikibooks](http://en.wikibooks.org/wiki/GIMP/Installing_Plugins)).
 * Copy ``script-fu/transfer.scm`` to GIMP installation's ``scripts/``-folder (you may have to create folder).
