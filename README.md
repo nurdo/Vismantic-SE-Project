@@ -8,6 +8,7 @@ Vismantic first finds photos in Flickr using words, and then analyzes and combin
 ## Image Filters
 
 The filters under consideration distinguish photos in the following five aspects (with subcategories):
+
 1. Whole photo: unconventional_size, colorization, grid, highlight, low_resolution, overexposure, shadow, whole_blur, fisheye (more advanced: no_fore_background_separation, processed, screenshot, media (illustration, infographic, print, screenshot), composed)
 
 2. Object: no_object, object_too_big_to_recognize, obscured, multiple_salient_regions, complex_scene, group, pattern, extracted_object_too_small, orientation, similarity (shape, camera angle (alignment) and color), more advanced: non_recognizable)
