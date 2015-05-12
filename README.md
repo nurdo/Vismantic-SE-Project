@@ -5,7 +5,7 @@ This is a student software engineering project of the Department of Computer Sci
 
 Vismantic first finds photos in Flickr using words, and then analyzes and combines the retrieved photos in several ways. Among the image processing techniques used by Vismantic, object extraction and texture transfer techniques are relevant to this project.
 
-## Image Filters
+### Image Filters
 
 The filters under consideration distinguish photos in the following five aspects (with subcategories):
 
