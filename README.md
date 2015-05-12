@@ -23,12 +23,13 @@ The folder called “images” contains photos having the aforementioned problem
 
 ## Software Requirements
 - Have to be done in Python 2.7.x
+- For Unix systems, e.g., Linux distributions, OS X
 - Can use opencv (version 2.4.9 or later 2.4.x), but all functions have to have wrappers in Python
-- Can use functions from G’MIC, but also functions have to have wrappers in Python
-- Can use GIMP’s script-fu, but also wrappers to Python
-- Any other use of 3rd party software (other executables, Python modules which can be installed via pip should be mostly OK) should be discussed on (if they find something nifty, lets use it!)
-- One thing that might come up is that Python has this “standard” imaging library called PIL, but it is not very well maintained. I have used a fork, better maintained version of it, called PILLOW. As fas as I know, they cannot coexist in the same Python installation.
-- Documentation in Sphinx format
+- Can use functions from [G'MIC](http://gmic.eu) (version >=1.6), but also functions have to have wrappers in Python
+- Can use GIMP’s script-fu, but also wrappers in Python
+- Any other use of 3rd party software (other executables, Python modules which can be installed via [pip](https://pypi.python.org/pypi/pip) should be mostly OK)
+- One thing that might come up is that Python has a “standard” imaging library called PIL, but it is not very well maintained. I have used a fork, better maintained version of it, called PILLOW. As fas as I know, they cannot coexist in the same Python installation.
+- Documentation in [Sphinx](http://sphinx-doc.org) format
 - Wrap it as a Python egg/wheel (especially, if what they make is strictly a library)
 
 ## Tools used in Vismantic
