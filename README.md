@@ -3,7 +3,7 @@
 
 This is a student software engineering project of the Department of Computer Science of the University of Helsinki. The aim is to develop a set of image (photo) filtering components for Vismantic, an interactive system generating visual ideas (imagine a light bulb grows out of a tuft of green leaves). 
 
-Vismantic first finds photos in Flickr using words, and then analyzes and combines the retrieved photos in several ways. Among the image processing techniques used by Vismantic, object extraction and texture transfer are relevant to this project.
+Vismantic first finds photos in Flickr using words, and then analyzes and combines the retrieved photos in several ways. Among the image processing techniques used by Vismantic, object extraction and texture transfer techniques are relevant to this project.
 
 ## Image Filters
 
