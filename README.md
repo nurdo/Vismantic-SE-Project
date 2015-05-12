@@ -21,7 +21,7 @@ The filters under consideration distinguish photos in the following five aspects
 
 The folder called “images” contains photos having the aforementioned problems (in the corresponding subfolders). Photos that do not have any of the above problems are in the subfolder called "good".
 
-## Software Requirements
+### Software Requirements
 - Have to be done in Python 2.7.x
 - For Unix systems, e.g., Linux distributions, OS X
 - Can use opencv (version 2.4.9 or later 2.4.x), but all functions have to have wrappers in Python
@@ -32,7 +32,7 @@ The folder called “images” contains photos having the aforementioned problem
 - Documentation in [Sphinx](http://sphinx-doc.org) format
 - Wrap it as a Python egg/wheel (especially, if what they make is strictly a library)
 
-## Tools used in Vismantic
+### Tools used in Vismantic
 * [Flickr API](https://www.flickr.com/services/api/)
 * Object Extraction algorithm:
   * Download project from [CmCode-fork](https://github.com/assamite/CmCode), compile saliency.so
