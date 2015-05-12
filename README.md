@@ -1,5 +1,5 @@
 # Vismantic-SE-Project
-==Image filtering suite for Vismantic==
+(Image filtering suite for Vismantic)
 
 This is a student software engineering project of the Department of Computer Science of the University of Helsinki. The aim is to develop a set of image (photo) filtering components for Vismantic, an interactive system generating visual ideas (imagine a light bulb grows out of a tuft of green leaves). 
 
