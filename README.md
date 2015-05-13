@@ -24,12 +24,7 @@ The folder called “images” contains photos having the aforementioned problem
 ### Software Requirements
 - Python 2.7.x
 - For Unix systems, e.g., Linux distributions, OS X
-- Easy to use API for developed functionality with concise pythonic function names, i.e. not the following: 
-
-```
- this_is_the_function_that_does_this_one_thing(*args, **kwargs)
- ```
-  
+- Easy to use API for developed functionality with concise pythonic function names
 - All functions have to have Python wrappers, even though 3rd party software is used for needed functionality (see below)
 - Image processing tasks should be handed to a task queue, from where they are executed in order. Use [Celery](http://www.celeryproject.org/).
 - Documentation is done in [Sphinx](http://sphinx-doc.org) format, documentation should be available as a Github page, see e.g. this [site](http://daler.github.io/sphinxdoc-test/includeme.html).
