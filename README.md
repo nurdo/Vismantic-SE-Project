@@ -24,6 +24,12 @@ The folder called “images” contains photos having the aforementioned problem
 ### Software Requirements
 - Python 2.7.x
 - For Unix systems, e.g., Linux distributions, OS X
+- Easy to use API for developed functionality with concise pythonic function names, i.e. not the following: 
+
+```
+ this_is_the_function_that_does_this_one_thing(*args, **kwargs)
+ ```
+  
 - All functions have to have Python wrappers, even though 3rd party software is used for needed functionality (see below)
 - Image processing tasks should be handed to a task queue, from where they are executed in order. Use [Celery](http://www.celeryproject.org/).
 - Documentation is done in [Sphinx](http://sphinx-doc.org) format, documentation should be available as a Github page, see e.g. this [site](http://daler.github.io/sphinxdoc-test/includeme.html).
@@ -33,7 +39,7 @@ The folder called “images” contains photos having the aforementioned problem
 
 As pure Python implementation might be slow when dealing with the image processing tasks, Vismantic currently uses following third party software:
 
-- [OpenCV](http://opencv.org/) (version 2.4.9 or higher)
+- [OpenCV](http://opencv.org/) (version 2.4.9+, no 3.0 beta)
 - [G'MIC](http://gmic.eu) (version >=1.6)
 - [GIMP](http://www.gimp.org/), especially [script-fu](http://docs.gimp.org/en/gimp-concepts-script-fu.html)
 
