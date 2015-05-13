@@ -22,15 +22,22 @@ The filters under consideration distinguish photos in the following five aspects
 The folder called “images” contains photos having the aforementioned problems (in the corresponding subfolders). Photos that do not have any of the above problems are in the subfolder called "good".
 
 ### Software Requirements
-- Have to be done in Python 2.7.x
+- Python 2.7.x
 - For Unix systems, e.g., Linux distributions, OS X
-- Can use opencv (version 2.4.9 or later 2.4.x), but all functions have to have wrappers in Python
-- Can use functions from [G'MIC](http://gmic.eu) (version >=1.6), but also functions have to have wrappers in Python
-- Can use GIMP’s script-fu, but also wrappers in Python
-- Any other use of 3rd party software (other executables, Python modules which can be installed via [pip](https://pypi.python.org/pypi/pip) should be mostly OK)
-- One thing that might come up is that Python has a “standard” imaging library called PIL, but it is not very well maintained. I have used a fork, better maintained version of it, called PILLOW. As fas as I know, they cannot coexist in the same Python installation.
-- Documentation in [Sphinx](http://sphinx-doc.org) format
-- Wrap it as a Python egg/wheel (especially, if what they make is strictly a library)
+- All functions have to have Python wrappers, even though 3rd party software is used for needed functionality (see below)
+- Image processing tasks should be handed to a task queue, from where they are executed in order. Use [Celery](http://www.celeryproject.org/).
+- Documentation is done in [Sphinx](http://sphinx-doc.org) format, documentation should be available as a Github page, see e.g. this [site](http://daler.github.io/sphinxdoc-test/includeme.html).
+- Wrap it as a Python egg/wheel (especially, if you make very library-like code)
+
+### 3rd Party Software/Code
+
+As pure Python implementation might be slow when dealing with the image processing tasks, Vismantic currently uses following third party software:
+
+- [OpenCV](http://opencv.org/) (version 2.4.9 or higher)
+- [G'MIC](http://gmic.eu) (version >=1.6)
+- [GIMP](http://www.gimp.org/), especially [script-fu](http://docs.gimp.org/en/gimp-concepts-script-fu.html)
+
+If you end up needing some functionality that is not covered by these, and find some other software that does the job, discuss the usage beforehand with the client. Python modules installed via [pip](https://pypi.python.org/pypi/pip) should be mostly OK, but try to minimise them.
 
 ### Tools used in Vismantic
 * [Flickr API](https://www.flickr.com/services/api/)
