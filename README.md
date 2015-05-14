@@ -25,10 +25,10 @@ The folder called “images” contains photos having the aforementioned problem
 - Python 2.7.x
 - For Unix systems, e.g., Linux distributions, OS X
 - Easy to use API for developed functionality with concise pythonic function names
-- All functions have to have Python wrappers, even though 3rd party software is used for needed functionality (see below)
+- All functions have to have Python wrappers, even if 3rd party software is used for needed functionality (see below)
 - Image processing tasks should be handed to a task queue, from where they are executed in order. Use [Celery](http://www.celeryproject.org/).
-- Documentation is done in [Sphinx](http://sphinx-doc.org) format, documentation should be available as a Github page, see e.g. this [site](http://daler.github.io/sphinxdoc-test/includeme.html).
-- Wrap it as a Python egg/wheel (especially, if you make very library-like code)
+- Documentation in [Sphinx](http://sphinx-doc.org) format, documentation should be available as a Github page, see e.g. this [site](http://daler.github.io/sphinxdoc-test/includeme.html).
+- Optionally, wrap it as a Python egg/wheel (especially, if you end up making very library-like code)
 
 ### 3rd Party Software/Code
 
@@ -36,7 +36,7 @@ As pure Python implementation might be slow when dealing with the image processi
 
 - [OpenCV](http://opencv.org/) (version 2.4.9+, no 3.0 beta)
 - [G'MIC](http://gmic.eu) (version >=1.6)
-- [GIMP](http://www.gimp.org/), especially [script-fu](http://docs.gimp.org/en/gimp-concepts-script-fu.html)
+- [GIMP](http://www.gimp.org/) (check [script-fu](http://docs.gimp.org/en/gimp-concepts-script-fu.html) for automating GIMP processes)
 
 If you end up needing some functionality that is not covered by these, and find some other software that does the job, discuss the usage beforehand with the client. Python modules installed via [pip](https://pypi.python.org/pypi/pip) should be mostly OK, but try to minimise them.
 
