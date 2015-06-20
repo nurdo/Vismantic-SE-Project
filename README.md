@@ -48,3 +48,6 @@ If you end up needing some functionality that is not covered by these, and find 
   * Install [GIMP](http://www.gimp.org/) (2.8 or later)
   * Install [Resynthesizer GIMP Plugin](http://registry.gimp.org/node/25219) (for installing GIMP Plugins, see [wikibooks](http://en.wikibooks.org/wiki/GIMP/Installing_Plugins)).
   * Copy ``script-fu/transfer.scm`` to GIMP installation's ``scripts/``-folder (you may have to create folder).
+
+### Contribution
+It seems this page became just an introduction. The contribution page is [vismantic-ohtuprojekti/image-filtering-suite] (https://github.com/vismantic-ohtuprojekti/image-filtering-suite).
